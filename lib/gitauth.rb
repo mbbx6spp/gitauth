@@ -16,6 +16,7 @@
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #++
 
+require 'rubygems'
 require 'pathname'
 
 # Prepend lib dir + any vendored lib's to the front of the load
