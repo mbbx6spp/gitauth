@@ -88,7 +88,7 @@ module GitAuth
     protected
     
     def extract_repo_name(command)
-      command.path.gsub(/\.git$/, "")
+      command.path
     end
     
   end
