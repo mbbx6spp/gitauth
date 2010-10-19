@@ -1,14 +1,5 @@
 require 'rubygems'
 
-if defined?(Gem)
-  # Check the versions of the gems we're loading
-  # just to be sure
-  gem "thoughtbot-shoulda", ">= 2.0.0"
-  gem "redgreen",           ">= 1.0.0"
-  gem "rr",                 ">= 0.10.0"
-  gem "rack-test"
-end
-
 # Testing dependencies
 require 'test/unit'
 require 'shoulda'
